@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "es2020",
+    "moduleResolution": "classic",
+    "lib": ["dom", "es2020", "webworker"],
+    "allowSyntheticDefaultImports": true,
+    "allowUmdGlobalAccess": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "baseUrl": "."
+  },
+  "lib": ["es2020", "node", "jest"],
+  "include": ["src", "test", "build-scripts", "test", "__mocks__"],
+  "typeAcquisition": {
+    "include": ["jest"]
+  }
+}
